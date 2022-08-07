@@ -58,6 +58,22 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.nuvens {
+    width: 500px;
+    position:absolute;
+    left:100%;
+    animation: nuvensMove 5s linear infinite;
+}
+
+@keyframes nuvensMove {
+    from {
+        left:100%;
+    }
+    to {
+        left:-500px;
+    }
+}
+
 @keyframes mover {
     from {
         right:-100px
