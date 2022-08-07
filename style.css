@@ -29,7 +29,7 @@
     bottom:50px;
     margin:0 auto;
     right: -100px;
-    animation: mover 1.3s linear infinite;
+    animation: mover 0.8s linear infinite;
 }
 
 .calvo {
